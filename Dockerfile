@@ -1,6 +1,6 @@
 FROM node:16.9.0-alpine
 
-ENV PORT=80
+ENV PORT=8080
 
 RUN mkdir -p /home/node/app/node_modules && chown -R node:node /home/node/app
 
